@@ -11,6 +11,10 @@
     "react-scripts": "3.4.1"
   },
   "main": "app.js",
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "start": "npm install -g serve; serve -s build",
     "heroku-postbuild": "npm run build",
